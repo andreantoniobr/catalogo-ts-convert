@@ -55,3 +55,9 @@ catalogo-ts-convert/
 - `tsconfig.json` com configuração mínima
 - Enum ou `type` de categorias
 - Comentários explicando brevemente o que foi feito
+
+---
+
+## 🤝 **Dúvidas?**
+
+Caso tenha dúvidas, entre em contato pelo **Discord** ou pelo e-mail do professor. Boa prática e divirta-se! 🚀
