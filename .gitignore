@@ -1,0 +1,54 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos compilados
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Exceções - manter arquivos de configuração JS
+!*.config.js
+!.eslintrc.js
+!jest.config.js
+
+# Cache do TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+
+# Testes
+coverage/
+.nyc_output/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Temporários
+tmp/
+temp/
+*.tmp
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store

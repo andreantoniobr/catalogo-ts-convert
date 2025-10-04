@@ -1,0 +1,29 @@
+{
+  "name": "catalogo-ts-convert",
+  "version": "1.0.0",
+  "description": "Você deverá converter um projeto simples de JavaScript para TypeScript, aplicando os conceitos aprendidos em aula, como:",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec node --loader ts-node/esm src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreantoniobr/catalogo-ts-convert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreantoniobr/catalogo-ts-convert/issues"
+  },
+  "homepage": "https://github.com/andreantoniobr/catalogo-ts-convert#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
